@@ -5,11 +5,11 @@ body{
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color: transparent;
     margin: 0px;
     border: 0px;
-    -webkit-box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.2);
+    /*-webkit-box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.2);*/
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -50,12 +50,13 @@ body{
 .banner {
     background-image: url('../img/bg.jpg');
     background-size: cover;
-    background-position: 50% 70%;
+   /* background-position: 50% 100%;*/
     background-repeat: no-repeat;
-    min-height: 340px;
+    min-height: 480px;
     overflow: hidden;
     z-index: 1;
     position: relative;
+    border-bottom: 1px solid #f3f3f3;
 }
 
 .banner:after {
@@ -72,25 +73,25 @@ body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1, 1);
 
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(255,255,255,.65);
 }
 
 .banner .container {
     z-index: 3;
     position: relative;
-    color: white;
 }
 
 .banner .container h1{
     margin-top: 40px;
-    font-weight: 300;
-    font-size: 28px;
-    text-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    font-weight: 400;
+    font-size: 32px;
 
 }
 
-.banner .container .lead{
-    margin-top: 10px;
+.banner .container p.subtitle{
+    margin: 10px 0px 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .section {
@@ -116,7 +117,7 @@ body{
 .section.gray {
     background-color: #fafafa;
     border-top: 1px solid #f3f3f3;
-    border-bottom: 1px solid #f3f3f3
+    border-bottom: 1px solid #f3f3f3;
 }
 
 .service {
