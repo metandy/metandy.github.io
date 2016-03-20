@@ -22,12 +22,12 @@ body{
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #26A69A;
+    color: #5C6BC0;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #26A69A;
+    color: #5C6BC0;
     background-color: transparent;
 }
 
@@ -52,7 +52,7 @@ body{
     background-size: cover;
     background-position: 50% 70%;
     background-repeat: no-repeat;
-    min-height: 350px;
+    min-height: 340px;
     overflow: hidden;
     z-index: 1;
     position: relative;
@@ -72,17 +72,21 @@ body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1, 1);
 
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.6);
 }
 
 .banner .container {
     z-index: 3;
     position: relative;
-
+    color: white;
 }
 
 .banner .container h1{
-    margin-top: 60px;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 28px;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+
 }
 
 .banner .container .lead{
@@ -102,7 +106,17 @@ body{
 .section-title span {
     font-size: 20px;
     padding: 10px 20px;
-    border-bottom: 2px solid #009688;
+    border-bottom: 2px solid #3F51B5;
+}
+
+.section-content{
+    margin: 50px 0px 20px 0px;
+}
+
+.section.gray {
+    background-color: #fafafa;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3
 }
 
 .service {
@@ -114,7 +128,7 @@ body{
     top: 50px;
     left: 30px;
     font-size: 24px;
-    color: #009688;
+    color: #3F51B5;
 }
 
 .service-content {
@@ -195,4 +209,37 @@ body{
 
 .client.rocky{
     background-image: url('http://rockyclub.ru/assets/rockytpl/img/logo2.png');
+}
+
+.step {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 15px;
+}
+
+.step-icon{
+    background-color: white;
+    color: #3949AB;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 48px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.step-text{
+    margin-top: 5px;
+}
+
+button{
+    color: #fff !important;
+    background-color: #5C6BC0 !important;
+    border-color: #3949AB !important;
+}
+
+footer {
+    background-color: #2a2730;
+    padding: 30px;
+    color:#99979c;
 }
