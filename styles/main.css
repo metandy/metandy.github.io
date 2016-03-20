@@ -22,12 +22,12 @@ body{
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #00BCD4;
+    color: #26A69A;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #00BCD4;
+    color: #26A69A;
     background-color: transparent;
 }
 
@@ -72,7 +72,7 @@ body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1, 1);
 
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.2);
 }
 
 .banner .container {
@@ -91,17 +91,18 @@ body{
 
 .section {
     padding: 20px 0px;
-    background-color: #f2f2f2;
 }
 
 .section-title {
     margin: 20px;
+    padding-top: 100px;
+    margin-top: -100px
 }
 
 .section-title span {
     font-size: 20px;
     padding: 10px 20px;
-    border-bottom: 2px solid #00BCD4;
+    border-bottom: 2px solid #009688;
 }
 
 .service {
@@ -113,7 +114,7 @@ body{
     top: 50px;
     left: 30px;
     font-size: 24px;
-    color: #00BCD4;
+    color: #009688;
 }
 
 .service-content {
@@ -126,4 +127,72 @@ body{
     margin: 10px 0px;
     color: #303030;
     text-transform: uppercase;
+}
+
+.client{
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #f1f1f1;
+    height: 150px;
+    width: 150px;
+    margin: 20px 10px;
+    padding: 4px;
+    background-origin: content-box;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.client.magnit{
+    background-image: url('http://vse-zadarma.ru/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82.png');
+}
+
+.client.mama{
+    background-image: url('https://mamaplusme.ru/bitrix/templates/elektro_light/images/logo.png');
+}
+
+.client.pavlovo{
+    background-image: url('http://xn----7sbabha0dcae7afdxk0b8dth.xn--p1ai/data/objects/4/images/logo_Pavlovskaya_Kurochka.jpg');
+}
+
+.client.sushinka{
+    background-image: url('http://www.sushinka.com/upload/medialibrary/a64/a64d559cf1b36d17b04ff6548351106e.png');
+}
+
+.client.newage {
+    background-image: url('http://www.newvek-nn.ru/uploads/theme/images/header-logo.png');
+}
+
+.client.prostor {
+    background-image: url('https://www.ptl.ru/img/logo.png');
+}
+
+.client.oblgaz {
+    background-image: url('http://oblgaz-meters.ru/images/logo.png');
+}
+
+.client.dianetika {
+    background-image: url('https://www.dianeticsbook.ru/wp-content/uploads/2016/02/logo.png');
+    background-color: rgba(220,48,32,0.95);
+}
+
+.client.mnogomebeli {
+    background-image: url('http://mnogomebeli.com/images/template/logo2.png');
+}
+
+.client.okna{
+    background-image: url('http://okna-win.ru/images/logo.png');
+}
+
+.client.mediamarkt {
+    background-image: url('https://nizhniy-novgorod.mediamarkt.ru/assets/css/images/header_logo-new.svg');
+}
+
+.client.taganka {
+    background-image: url('http://cs307904.vk.me/v307904674/5c45/maNJXBTlG2w.jpg');
+    background-color: #FFED00;
+}
+
+.client.rocky{
+    background-image: url('http://rockyclub.ru/assets/rockytpl/img/logo2.png');
 }
