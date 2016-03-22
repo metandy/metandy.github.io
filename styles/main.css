@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto';
     font-size: 14px;
     color: #505050;
+    background-color: #eeeeee;
 }
 
 .navbar-default {
@@ -65,7 +66,7 @@ nav.navbar.shrink {
 }
 
 .banner {
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/bg.jpeg');
     background-size: cover;
    /* background-position: 50% 100%;*/
     background-repeat: no-repeat;
@@ -89,8 +90,6 @@ nav.navbar.shrink {
     transition: all .2s ease-in-out;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1, 1);
-
-    background-color: rgba(255,255,255,.65);
 }
 
 .banner .container {
@@ -113,18 +112,18 @@ nav.navbar.shrink {
 
 .section {
     padding: 20px 0px;
+    margin: 0px 40px;
+    background-color: white;
 }
 
 .section-title {
-    margin: 20px;
-    padding-top: 100px;
-    margin-top: -100px
+    padding: 20px;
+    padding-top: 76px;
+    margin-top: -56px;
 }
 
 .section-title span {
     font-size: 20px;
-    padding: 10px 20px;
-    border-bottom: 2px solid #3F51B5;
 }
 
 .section-content{
@@ -165,9 +164,9 @@ nav.navbar.shrink {
     display: inline-block;
     border-radius: 2px;
     border: 1px solid #f1f1f1;
-    height: 150px;
+    height: 100px;
     width: 150px;
-    margin: 20px 10px;
+    margin: 10px 10px;
     padding: 4px;
     background-origin: content-box;
     background-size: contain;
