@@ -160,6 +160,70 @@ nav.navbar.shrink {
     text-transform: uppercase;
 }
 
+.box-title{
+    margin: 5px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.box-content ul{
+    padding-left: 10px;
+}
+
+.box-content ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 25px;
+    position: relative;
+}
+
+.box-content ul li:before{
+    background-color: #5C6BC0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0px;
+}
+
+.diagram{
+    margin: 20px 0px;
+}
+
+.diagram i{
+    font-size: 30px;
+}
+
+.diagram-1 i{
+    color: #7986CB;
+}
+.diagram-2 i{
+    color:#5C6BC0;
+}
+.diagram-3 i{
+    color:#3F51B5;
+}
+.diagram-4 i{
+    color:#3949AB;
+}
+.diagram-5 i{
+    color:#303F9F;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.diagram span{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 30px
+}
+
+.diagram-5 span{
+    position: relative;
+}
+
 .client{
     display: inline-block;
     border-radius: 2px;
@@ -228,25 +292,103 @@ nav.navbar.shrink {
     background-image: url('http://rockyclub.ru/assets/rockytpl/img/logo2.png');
 }
 
+.steps{
+    position: relative;
+    height: 140px;
+    margin-top: 20px;
+}
+
+.steps-line{
+    height: 2px;
+    width: 98%;
+    margin: 0px 1%;
+    background-color: #3949AB;;
+    top: 32px;
+    position: absolute;
+}
+
+.steps-items{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+
 .step {
     display: inline-block;
     text-align: center;
-    margin: 0px 15px;
+    margin: 0px 40px;
 }
 
-.step-icon{
-    background-color: white;
-    color: #3949AB;
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    line-height: 48px;
-    font-size: 24px;
+.step-icon {
+    width: 74px;
     margin: 0 auto;
+    background-color: #EEEEEE;
 }
 
 .step-text{
     margin-top: 5px;
+}
+
+.price-box {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    padding: 0 15px 10px 15px;
+    width: 400px;
+    margin: 0 auto
+}
+
+.price-box-header{
+    font-size: 15px;
+    font-weight: 500;
+    color: #303030;
+    text-transform: uppercase;
+    background-color: #E8EAF6;
+    padding: 20px 0px;
+}
+
+.price-box-header.row{
+    margin-bottom: 20px;
+}
+
+.price-box .row{
+    margin-bottom: 10px;
+}
+
+.price-box:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.subfooter{
+    background-color: #424242;
+    color: #FAFAFA;
+    padding: 20px 0px;
+}
+
+.subfooter .container{
+    width: 600px;
+}
+
+.contact-block{
+    color: #9E9E9E;
+    margin: 0 auto;
+}
+
+.contact-input{
+    margin: 0 auto;
+    width: 96%;
+    margin-bottom: 15px;
+}
+
+.contact-items{
+    margin-top: 60px;
+}
+
+.contact-item {
+    font-size: 16px;
+    color: #E0E0E0;
+    padding: 0px 10px;
+    display: inline;
 }
 
 button{
