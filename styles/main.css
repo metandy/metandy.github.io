@@ -43,6 +43,12 @@ body{
     background-size: cover;*/
 }
 
+.navbar-brand img{
+    width: 250px;
+    margin-top: -130px;
+    margin-left: -30px;
+}
+
 nav.navbar.shrink {
     background-color: white;
     transition: all 0.4s ease;
